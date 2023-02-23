@@ -1,13 +1,41 @@
-.App {
-  text-align: center;
+
+.container {
+  height: 100%; 
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+  grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end]; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  grid-column: main;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.menu {}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-column: main;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +63,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
