@@ -3,22 +3,24 @@
   height: 100%; 
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
-  grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end]; 
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 40px 200px 40px;
 }
 
 .header {
-  grid-column: main;
+  grid-column: 1 / -1;
 }
 
-.menu {}
+.menu {
+  grid-column: 1 / 2;
+}
 
 .content {
-  grid-area: content;
+  grid-column: 2 / -1;
 }
 
 .footer {
-  grid-column: main;
+  grid-column: 1 / -1;
 }
 
 
