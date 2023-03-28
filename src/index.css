@@ -1,0 +1,39 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: #222024;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 6vw;
+  background-color: coral;
+  padding: 10vh;
+}
+
+/* .container>div:nth-child(1n) {
+  background-color: #da4f25;
+}
+
+.container>div:nth-child(3n) {
+  background-color: #0c904e;
+}
+
+.container>div:nth-child(2n) {
+  background-color: #b5186c;
+}
+
+.container>div:nth-child(4n) {
+  background-color: #13a0b3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

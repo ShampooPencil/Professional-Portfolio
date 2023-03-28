@@ -1,0 +1,51 @@
+{
+    "hidefiles.configurationType": "local",
+    "hidefiles.globalConfig": {
+        "profiles": [
+            {
+                "name": "Default",
+                "detail": "",
+                "description": "Test",
+                "hidden": [
+                    ".vscode/",
+                    "professional-portfolio/src/setupTests.js",
+                    "professional-portfolio/src/reportWebVitals.js",
+                    "professional-portfolio/src/App.test.js",
+                    "professional-portfolio/.gitignore",
+                    "professional-portfolio/README.md",
+                    "README.md",
+                    ".gitignore",
+                    "src/App.test.js",
+                    "src/reportWebVitals.js",
+                    "src/setupTests.js"
+                ]
+            },
+            {
+                "name": "Strict",
+                "detail": "Hide everything not immediately required",
+                "hidden": [
+                    "$Default"
+                ]
+            }
+        ]
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode/": true,
+        "professional-portfolio/src/setupTests.js": true,
+        "professional-portfolio/src/reportWebVitals.js": true,
+        "professional-portfolio/src/App.test.js": true,
+        "professional-portfolio/.gitignore": true,
+        "professional-portfolio/README.md": true,
+        "README.md": true,
+        ".gitignore": true,
+        "src/App.test.js": true,
+        "src/reportWebVitals.js": true,
+        "src/setupTests.js": true
+    },
+    "hidefiles.selectedProfile": "Default"
+}
