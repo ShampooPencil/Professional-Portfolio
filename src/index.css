@@ -1,7 +1,7 @@
 html,
 body {
   box-sizing: border-box;
-  background-color: #222024;
+  background-color: #38363b;
   /* background-color: coral; */
   height: 100%;
   /* padding: 10px; */
@@ -15,6 +15,9 @@ body {
   justify-content: space-evenly;
   font-size: 5vw;
   background-color: coral;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+
 }
 
 .navItem {
@@ -22,10 +25,10 @@ body {
   position: relative;
   margin: 1vw;
   padding: 4vw;
-  border: 2px solid #000000;
+  border: 2px solid coral;
   overflow: hidden;
   text-decoration: none;
-  font-size: 4vw;
+  font-size: 5vw;
   outline: none;
   color: #ce0e4e;
   background: transparent;
