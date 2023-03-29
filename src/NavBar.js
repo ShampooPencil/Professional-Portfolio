@@ -6,7 +6,9 @@ export default function NavBar() {
       <div>
         <nav className="navContainer">
           <NavLink to="/" className="homeLink navItem">
-            <div className="fa fa-home"></div>
+          <button class="button" type="button" data-hover="HOME" data-active="I'M ACTIVE">
+            <span class="fa fa-home"></span>
+          </button>
           </NavLink>
           <NavLink to="/about" className="aboutLink navItem">
             <div className="fa-solid fa-person-skiing"></div>
