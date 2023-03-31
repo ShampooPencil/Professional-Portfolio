@@ -1,9 +1,14 @@
-
-export default function RightArrow(){ 
+import { NavLink } from "react-router-dom";
+export default function RightArrow(props){ 
   
     return <>
-        <div className="rightArrow">
-            
-        </div>
+    {/* <div className="arrowContainer"> */}
+        
+            <NavLink className="fa-solid fa-arrow-right rightArrow" to={props.page}>
+               
+            </NavLink>
+       
+    {/* </div> */}
+    
     </>
   }

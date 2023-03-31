@@ -18,6 +18,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
+       
         <div className="dark">
           <Routes>
             <Route path="/" element={<Home />}></Route>

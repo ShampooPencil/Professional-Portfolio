@@ -24,16 +24,43 @@ body {
 .navItem {
   display: inline-block;
   position: relative;
-  margin: 1vw;
-  padding: 4vw;
+  margin-top: 10px;
+  padding: 2vw 4vw 2vw 4vw;
   border: 2px solid coral;
   overflow: hidden;
   text-decoration: none;
   font-size: 5vw;
   outline: none;
-  color: #ce0e4e;
+  color: #d70d51;
   background: transparent;
   font-family: 'raleway', sans-serif;
+}
+
+.nav-btn {}
+
+.arrowContainer {
+  padding-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 3vw;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.leftArrow {
+  color: #d70d51
+}
+
+.rightArrow {
+  color: crimson
+}
+
+
+
+.rightArrow {
+  /* align-self: flex-end; */
 }
 
 .button span {
@@ -42,10 +69,10 @@ body {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .button:before,
@@ -57,10 +84,10 @@ body {
   width: 100%;
   text-align: center;
   opacity: 0;
-  -webkit-transition: .3s, opacity .5s;
-  -moz-transition: .3s, opacity .5s;
-  -o-transition: .3s, opacity .5s;
-  transition: .3s, opacity .5s;
+  -webkit-transition: .4s, opacity .5s;
+  -moz-transition: .4s, opacity .5s;
+  -o-transition: .4s, opacity .5s;
+  transition: .4s, opacity .5s;
 }
 
 /* :before */
@@ -74,7 +101,49 @@ body {
   transform: translate(-150%, 0);
 }
 
-/* :after */
+.home-btn a.active .button {
+  color: aqua;
+}
+
+.home-btn .button:hover {
+  color: aqua;
+  /* background-color: rgb(250, 97, 41); */
+}
+
+.about-btn a.active .button {
+  color: rgb(81, 255, 0);
+}
+
+.about-btn .button:hover {
+  color: rgb(81, 255, 0);
+}
+
+.skills-btn a.active .button {
+  color: rgb(38, 0, 255);
+}
+
+.skills-btn .button:hover {
+  color: rgb(38, 0, 255);
+}
+
+.projects-btn a.active .button {
+  color: rgb(242, 255, 0);
+  font-size: 5vw;
+}
+
+.projects-btn .button:hover {
+  color: rgb(242, 255, 0);
+}
+
+.contact-btn a.active .button {
+  color: rgb(106, 0, 255);
+  font-size: 5vw;
+}
+
+.contact-btn .button:hover {
+  color: rgb(106, 0, 255);
+}
+
 
 .button:after {
   content: attr(data-active);
@@ -95,11 +164,11 @@ body {
   padding-left: 3vw;
   padding-right: 3vw;
   opacity: 0;
-  -webkit-transform: scale(0.2);
-  -moz-transform: scale(0.2);
-  -ms-transform: scale(0.2);
-  -o-transform: scale(0.2);
-  transform: scale(0.2);
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
 }
 
 /*  
@@ -115,10 +184,10 @@ body {
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
-  -webkit-transition-delay: .2s;
-  -moz-transition-delay: .2s;
-  -o-transition-delay: .2s;
-  transition-delay: .2s;
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 /* 
