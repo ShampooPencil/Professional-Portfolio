@@ -5,13 +5,11 @@ import 'animate.css';
 
 export default function Home(){
     return <>
-        <ArrowContainer leftarrowLink="/contact" rightarrowLink="/about">
-            <h2 className="animate__animated animate__bounce">Andrew Aramouni</h2>
-        </ArrowContainer>
-        {/* <LeftArrow page="/contact" /> */}
-        {/* <div className="homeMyName">
-            Andrew A. Aramouni
-        </div> */}
-        {/* <RightArrow page="/about"/> */}
+        <div className="homeColor">
+            <ArrowContainer leftarrowLink="/contact" rightarrowLink="/about">
+
+                <h2 className="animate__animated animate__bounce">Andrew Aramouni</h2>
+            </ArrowContainer>
+        </div>
     </>
 }
