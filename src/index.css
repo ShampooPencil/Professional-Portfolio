@@ -2,9 +2,7 @@ html,
 body {
   box-sizing: border-box;
   background-color: #535156;
-  /* background-color: coral; */
   height: 100%;
-  /* padding: 10px; */
   margin: 0px;
 }
 
@@ -47,9 +45,19 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 3vw;
-  /* justify-content: center;
-  align-items: center; */
 }
+
+.contactColor .arrowContainer .leftArrow {
+  color: darkorange;
+}
+
+.contactColor .arrowContainer .pageContent {
+  text-align: center;
+  align-self: center;
+  color: darkorange;
+}
+
+
 
 .leftArrow {
   padding-left: 3%;
@@ -132,7 +140,7 @@ body {
 
 .aboutColor {
   background-color: rgb(81, 255, 0);
-  padding-bottom: 100%;
+  padding-bottom: 120%;
 }
 
 .about-btn .button:hover {
@@ -146,6 +154,8 @@ body {
 .skillsColor {
   background-color: rgb(38, 0, 255);
   padding-bottom: 100%;
+  padding-bottom: 120%;
+  height: 150%
 }
 
 .skills-btn .button:hover {
