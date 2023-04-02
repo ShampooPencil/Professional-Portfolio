@@ -16,13 +16,10 @@ body {
   background-size: 100%;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
-
 }
 
 .navItem {
-  /* display: inline-block; */
   position: relative;
-  /* margin-top: 1%; */
   padding: 2px 3vw 2px 3vw;
   border: 2px solid coral;
   overflow: hidden;
@@ -34,10 +31,6 @@ body {
   font-family: 'raleway', sans-serif;
 }
 
-/* .nav-btn {
-  
-} */
-
 .arrowContainer {
   padding-top: 2vw;
   display: flex;
@@ -47,14 +40,30 @@ body {
   font-size: 3vw;
 }
 
-.contactColor .arrowContainer .leftArrow {
-  color: darkorange;
+.homeColor .arrowContainer .pageContent {
+  text-align: center;
+  align-self: center;
+}
+
+.aboutColor .arrowContainer .pageContent {
+  text-align: center;
+  align-self: center;
+}
+
+.skillsColor .arrowContainer .pageContent {
+  text-align: center;
+  align-self: center;
+}
+
+.projectColor .arrowContainer .pageContent {
+  text-align: center;
+  align-self: center;
 }
 
 .contactColor .arrowContainer .pageContent {
+  color: darkorange;
   text-align: center;
   align-self: center;
-  color: darkorange;
 }
 
 
@@ -189,15 +198,6 @@ body {
 .contact-btn .button:hover {
   color: rgb(106, 0, 255);
 }
-
-/* .nav-btn a.active .button {
-  border: 1px solid rgb(34, 33, 33);
-}
-
-.nav-btn .button:hover {
-  border: hidden;
-} */
-
 
 .button:after {
   content: attr(data-active);

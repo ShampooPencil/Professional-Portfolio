@@ -8,7 +8,8 @@ export default function Home(){
         <div className="homeColor">
             <ArrowContainer leftarrowLink="/contact" rightarrowLink="/about">
 
-                <h2 className="animate__animated animate__bounce">Andrew Aramouni</h2>
+                <div className="animate__animated animate__bounce homeHeader">Andrew Aramouni</div>
+                <div className="homeContent">Junior Front-End Programmer</div>
             </ArrowContainer>
         </div>
     </>
