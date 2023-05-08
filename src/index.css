@@ -11,7 +11,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: 5vw;
+  font-size: 4vw;
   background-color: coral;
   background-size: 100%;
   padding-top: 0.1em;
@@ -24,7 +24,7 @@ body {
   border: 2px solid coral;
   overflow: hidden;
   text-decoration: none;
-  font-size: 5vw;
+  font-size: 4vw;
   outline: none;
   color: #d70d51;
   background: transparent;
